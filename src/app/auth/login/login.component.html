@@ -1,19 +1,29 @@
-<div class="container">
-  <div class="login">
-    <div class="login-triangle"></div>
+<div class="body">
+  <div class="container">
 
-    <h2 class="login-header">Log in</h2>
-
-    <form #frmLogin="ngForm" class="login-container" (ngSubmit)="onLogin(frmLogin)">
-      <p>
-        <input type="email" name="email" placeholder="Email" ngModel required>
-      </p>
-      <p>
-        <input type="password" name="password" placeholder="Password" ngModel required>
-      </p>
-      <p>
-        <input type="submit" value="Send">
-      </p>
-    </form>
+      <div class="row login">
+          <div class="col s12 l8 offset-l2">
+              <div class="card">
+                  <div class="card-action cyan darken-4 white-text center-align">
+                      <h2 class="login-header">Sign In</h2>
+                  </div>
+                  <div class="card-content">
+                      <div class="form-field">
+                          <form #frmLogin="ngForm" class="login-container" (ngSubmit)="onLogin(frmLogin)">
+                              <div class="form-field">
+                                  <input type="email" name="email" placeholder="Email" ngModel required>
+                              </div>
+                              <div class="form-field">
+                                  <input type="password" name="password" placeholder="Password" ngModel required>
+                              </div>
+                              <div class="form-field center-align">
+                                  <button class="btn red" type="submit" value="LogIn">Login</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 </div>

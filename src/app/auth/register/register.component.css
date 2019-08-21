@@ -1,0 +1,27 @@
+.register{
+    position: relative;
+    top : 100px;
+}
+
+.register .card{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.register input{
+color : #ffffff;
+font-size: 20px !important;
+}
+.register button:hoving{
+    margin-top: 30px;
+}
+.register span{
+    color: #fff;
+}
+.body{
+    background-image: url("https://s3.amazonaws.com/gdli-prod/resources/companias/4dd1b617f582f510ba733867/productos/4e0a0569a771a290993bcd6b/petroleo.jpg");
+    background-size: cover;
+    color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    
+}
