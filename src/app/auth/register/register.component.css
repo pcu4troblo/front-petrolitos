@@ -14,8 +14,28 @@ font-size: 20px !important;
 .register button:hoving{
     margin-top: 30px;
 }
+
+.register .radioB{
+    margin-top: 20px;
+}
+
+#proveedor{
+margin-left: 17px;
+}
+
 .register span{
     color: #fff;
+}
+
+
+
+.register .btn{
+    background: rgba(0, 0, 0, 0.6);
+    outline: none;
+    width: 100%;
+    border: 2px solid #006064;
+    margin-top: 15px;
+    cursor: pointer;
 }
 .body{
     background-image: url("https://s3.amazonaws.com/gdli-prod/resources/companias/4dd1b617f582f510ba733867/productos/4e0a0569a771a290993bcd6b/petroleo.jpg");
